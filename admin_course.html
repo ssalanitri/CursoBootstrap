@@ -145,15 +145,52 @@
               </div> <!-- #form-list -->
               
               <div role="tabpanel" class="tab-pane panel panel-default" id="form-add-section">
+
+                <div class="panel-body">
+                  <h3>Anadir nueva seccion</h3>
+                </div>
+                <form>
+                    <div class="form-group">
+                      <label for="inputSectionTitle">
+                        Titulo de la seccion
+                      </label>
+                      <input type="text" id="inputSectionTitle" class="form-control"
+                      placeholder="Escribre el titulo de la seccion...">
+
+                    </div>
+                    <button type="submit" class="btn btn-success">Anadir</button> o
+                    <a href="">Cancelar</a>
+                </form>
                 
               </div> <!-- #form-add-section -->
 
-              <div role="tabpanel" class="tab-pane" id="form-add-lecture">
-                <h4>laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident.</h4>
-              </div> <!-- #form-add-lecture -->
+              <div role="tabpanel" class="panel panel-default tab-pane" id="form-add-lecture">
+                <div class="panel-body">
+                  <h3>Anadir nueva clase</h3>
+                  <div class="form-group">
+                    <label for="inputLectureTitle">TItulo</label>
+                    <input type="text" id="inputLectureTitle" class="form-control"
+                    placeholder="Escribe el titulo de la leccion">
+                  </div>
+                  <div class="form-group">
+                    <label for="inputLectureDescription">Descripcion</label>
+                    <textarea class="form-control" id="inputLectureDescription" 
+                    placeholder="Escribe la descripcion de esta leccion" rows="3"></textarea>
+                  </div>
+                  <div class="form-group">
+                    <label for="inputLectureVideo">URL del video:</label>
+                    <input type="text" class="form-control" id="inputLectureVideo"
+                    placeholder="Escribe la url de youtube del video">
+                  </div>
+                  <div class="form-group">
+                    <label for="inputLectureDuration">Duracion de la leccion</label>
+                    <input type="text" class="form-control" id="inputLectureDuration" 
+                    placeholder="Escriba los minutos y segundos que dura el video en formato mm:ss">
+                  </div>
+                  <button type="submit">Anadir</button> o <a href="">Finalizar</a>
+                </div>
+                
+               </div> <!-- #form-add-lecture -->
 
             </div>
             <!-- TAB CONTENT -->  
